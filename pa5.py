@@ -37,3 +37,4 @@ def bisection_root(func, a, b):
     elif mid < 0:
         return bisection_root(func, midway, upper)
     return midway
+
