@@ -1,7 +1,7 @@
 def gcd(a, b):
     """
-    Calculate the greatest common divisor (GCD) of two integers using the 
-    Euclidean algorithm.
+    Calculate the greatest common divisor (GCD) of two integers 
+    using the Euclidean algorithm.
 
     Args:
         a (int): First integer.
@@ -38,8 +38,8 @@ def remove_pairs(s):
 
 def bisection_root(func, a, b):
     """
-    Find the root of a function within a given interval using the bisection 
-    method.
+    Find the root of a function within a given interval using the 
+    bisection method.
 
     Args:
         func (callable): The function for which to find the root.
@@ -52,8 +52,8 @@ def bisection_root(func, a, b):
         float: The root of `func` within the interval.
 
     Raises:
-        ValueError: If the signs of the function at the interval boundaries 
-        are not different.
+        ValueError: If the signs of the function at the 
+        interval boundaries are not different.
     """
     if func(a) > 0 and func(b) < 0:
         lower = b
